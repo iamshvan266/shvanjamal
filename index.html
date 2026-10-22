@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080b14">
+    <meta name="description" content="Explore the portfolio of Shvan Jamal, featuring modern web design, digital experiences, and creative technology.">
+    <link rel="canonical" href="https://iamshvan266.github.io/shvanjamal/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%235b8cff'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23080b14'/%3E%3Cpath d='M14 20h14v7H21v5h7v14H14v-7h7v-2h-7zm22 0h14v7h-7v5h7v14H36v-7h7v-2h-7z' fill='url(%23g)'/%3E%3C/svg%3E">
+    <meta property="og:title" content="Shvan Jamal">
+    <meta property="og:description" content="Explore the portfolio of Shvan Jamal, featuring modern web design, digital experiences, and creative technology.">
+    <meta property="og:url" content="https://iamshvan266.github.io/shvanjamal/">
+    <meta property="og:image" content="https://i.ibb.co/Fk5Vw6rb/8-FAED894-0034-4155-A6-E7-ABF8-FE9-B570-F.png">
+    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="Portrait of Shvan Jamal">
+    <meta name="twitter:url" content="https://iamshvan266.github.io/shvanjamal/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shvan Jamal | Web Developer &amp; Digital Creator">
+    <meta name="twitter:description" content="Explore the portfolio of Shvan Jamal, featuring modern web design, digital experiences, and creative technology.">
+    <meta name="twitter:image" content="https://i.ibb.co/Fk5Vw6rb/8-FAED894-0034-4155-A6-E7-ABF8-FE9-B570-F.png">
+    <title>Shvan Jamal | Web Developer &amp; Digital Creator</title>
+    <script>
+      try {
+        const savedTheme = localStorage.getItem("shvan-portfolio-theme");
+        document.documentElement.dataset.theme = savedTheme === "light" || savedTheme === "dark"
+          ? savedTheme
+          : matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      } catch (error) {
+        console.warn("Could not read the saved theme preference.", error);
+        document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      }
+      try {
+        const savedAccent = localStorage.getItem("shvan-portfolio-accent");
+        document.documentElement.dataset.accent = ["blue", "violet", "cyan"].includes(savedAccent) ? savedAccent : "blue";
+      } catch (error) {
+        console.warn("Could not read the saved accent color preference.", error);
+        document.documentElement.dataset.accent = "blue";
+      }
+    </script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body id="top">
+    <svg class="ambient-network" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+      <g class="network-lines">
+        <path d="M54 210 224 128 366 236 528 163 687 275 822 194 1001 278 1175 164 1380 236M54 210 110 422 278 535 366 236 501 418 687 275 744 486 1001 278 1082 488 1175 164 1320 440M110 422 278 535 501 418 744 486 923 603 1082 488 1260 610 1320 440"/>
+      </g>
+      <g class="network-nodes">
+        <circle cx="54" cy="210" r="3"/><circle cx="224" cy="128" r="2.5"/><circle cx="366" cy="236" r="3"/>
+        <circle cx="528" cy="163" r="2.5"/><circle cx="687" cy="275" r="3"/><circle cx="822" cy="194" r="2.5"/>
+        <circle cx="1001" cy="278" r="3"/><circle cx="1175" cy="164" r="2.5"/><circle cx="1380" cy="236" r="3"/>
+        <circle cx="110" cy="422" r="2.5"/><circle cx="278" cy="535" r="3"/><circle cx="501" cy="418" r="2.5"/>
+        <circle cx="744" cy="486" r="3"/><circle cx="923" cy="603" r="2.5"/><circle cx="1082" cy="488" r="3"/>
+        <circle cx="1260" cy="610" r="2.5"/><circle cx="1320" cy="440" r="3"/>
+      </g>
+    </svg>
+      <div class="scroll-progress" role="progressbar" aria-label="Page reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="scroll-progress-bar"></span></div>
+      <div class="reading-indicator" role="group" aria-label="Reading progress">
+        <span class="reading-percent">0%</span>
+        <span class="reading-section-name">Home</span>
+        <button class="reading-back-to-top" type="button" aria-label="Back to top">↑</button>
+      </div>
+      <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#top" aria-label="Shvan Jamal, home">
+          <span class="wordmark-mark"><img src="./assets/shvan-profile.png" alt=""></span>
+          <span>Shvan Jamal</span>
+        </a>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#home" aria-current="location">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#tech-stack">Tech Stack</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+            <svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            <svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+            <span class="theme-toggle-label">Switch to light theme</span>
+          </button>
+            <a class="button button-primary menu-talk" href="#contact">Let's Talk</a>
+        </nav>
+        <button class="quick-search-trigger" type="button" aria-label="Open quick navigation search" aria-keyshortcuts="Control+K Meta+K">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.5 4.5"/></svg>
+          <span class="search-trigger-label">Search</span>
+          <kbd aria-hidden="true">Ctrl/Cmd K</kbd>
+        </button>
+        <div class="accent-studio">
+          <button class="accent-studio-trigger" type="button" aria-expanded="false" aria-controls="accent-studio-options" aria-label="Choose accent color">
+            <span class="accent-studio-dot" aria-hidden="true"></span>
+            <span class="accent-studio-label">Accent</span>
+          </button>
+          <div class="accent-studio-options" id="accent-studio-options" hidden>
+            <p>Accent color</p>
+            <button type="button" data-accent-choice="blue" aria-pressed="true"><span class="accent-swatch accent-swatch-blue" aria-hidden="true"></span>Electric Blue</button>
+            <button type="button" data-accent-choice="violet" aria-pressed="false"><span class="accent-swatch accent-swatch-violet" aria-hidden="true"></span>Violet</button>
+            <button type="button" data-accent-choice="cyan" aria-pressed="false"><span class="accent-swatch accent-swatch-cyan" aria-hidden="true"></span>Cyan</button>
+            <button class="accent-reset" type="button">Reset to default</button>
+          </div>
+        </div>
+        <a class="button button-primary header-talk" href="#contact">Let's Talk</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span class="welcome-greeting" data-welcome-greeting></span><span aria-hidden="true"> · </span>Web Developer &amp; Digital Creator</p>
+          <h1 id="hero-title">Building Digital Experiences <span class="gradient-text">with Purpose.</span></h1>
+          <p class="hero-name"><span class="hero-signature-mark" aria-hidden="true">SJ.</span><span class="hero-signature">SHVAN JAMAL</span></p>
+          <button class="hero-love-message" type="button">
+            <span class="hero-love-doodle" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+            </span>
+            I love you <span class="hero-love-heart" aria-hidden="true">🤎</span> (H)
+          </button>
+          <p class="hero-description">I'm Shvan Jamal, a web developer passionate about building modern websites and creating useful digital experiences with clean design and thoughtful technology.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              <span>Explore My Work</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+            </a>
+            <a class="button button-secondary" href="#contact">
+              <span>Get in Touch</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8A8.5 8.5 0 0 1 8.7 4a8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></svg>
+            </a>
+          </div>
+          <a class="scroll-cue" href="#about">
+            <span>Scroll to explore</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+          </a>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-holo-cube" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="portrait-orbit" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <img class="profile-photo" src="./assets/shvan-profile.png" alt="Portrait of Shvan Jamal" fetchpriority="high">
+            <span class="photo-fallback" hidden>Profile photo unavailable</span>
+          </div>
+          <span class="availability-badge" data-availability><span class="status-dot" aria-hidden="true"></span><span class="availability-label">Availability not confirmed</span></span>
+          <span class="floating-chip chip-code"><span aria-hidden="true">&lt;/&gt;</span>Thoughtful development</span>
+          <span class="floating-chip chip-ideas"><span class="chip-spark" aria-hidden="true">✳</span>Ideas into experiences</span>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>About Me</p>
+          <h2 id="about-title">Curious by Nature. Driven to Create.</h2>
+          <p class="section-intro">I'm interested in web development, modern technologies, and creating responsive interfaces that make digital experiences useful and easy to enjoy.</p>
+        </div>
+        <div class="highlight-grid">
+          <article class="highlight-card reveal">
+            <span class="feature-icon icon-blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h16M7 12h10m-7 5h4"/></svg>
+            </span>
+            <h3>Keep It Simple</h3>
+            <p>Clean interfaces, clear communication, and thoughtful details that make digital experiences easier to use.</p>
+          </article>
+          <article class="highlight-card reveal">
+            <span class="feature-icon icon-violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4M7 8h10"/></svg>
+            </span>
+            <h3>Built for Every Screen</h3>
+            <p>Responsive layouts designed to feel natural across desktop, tablet, and mobile.</p>
+          </article>
+          <article class="highlight-card reveal">
+            <span class="feature-icon icon-cyan" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.2 2.2m8.4 8.4 2.2 2.2m0-12.8-2.2 2.2m-8.4 8.4-2.2 2.2"/><circle cx="12" cy="12" r="4"/></svg>
+            </span>
+            <h3>Always Improving</h3>
+            <p>A continuous focus on learning, refining ideas, and building better digital experiences.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" id="services" aria-labelledby="services-title">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>What I Do</p>
+            <h2 id="services-title">Ideas Into Reality.</h2>
+          </div>
+          <p class="section-intro">Thoughtful design and practical technology come together to make digital experiences clear, useful, and ready for everyday life.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-card-blue reveal">
+            <div class="service-icon icon-blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 6.5h.01M6 13l2 2-2 2m5 0h4"/></svg>
+            </div>
+            <p class="card-kicker">01 / Build</p>
+            <h3>Website Development</h3>
+            <p class="service-description">Modern, responsive websites with clean layouts, thoughtful interactions, and a strong visual identity.</p>
+            <ul class="tag-list" aria-label="Website development features">
+              <li>Responsive</li><li>Accessible</li><li>Modern UI</li>
+            </ul>
+          </article>
+          <article class="service-card service-card-violet reveal">
+            <div class="service-icon icon-violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.64 5.64l2.12 2.12m8.48 8.48 2.12 2.12m0-12.72-2.12 2.12m-8.48 8.48-2.12 2.12"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <p class="card-kicker">02 / Explore</p>
+            <h3>Modern Technology Solutions</h3>
+            <p class="service-description">Practical digital solutions focused on usability, performance, and modern web standards.</p>
+            <ul class="tag-list" aria-label="Technology solution features">
+              <li>Innovation</li><li>Usability</li><li>Digital Solutions</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Selected Projects</p>
+            <h2 id="projects-title">Selected Work. Thoughtfully Crafted.</h2>
+          </div>
+          <p class="section-intro">A selection of websites and digital projects from my portfolio. Visit a project to explore it.</p>
+        </div>
+        <div class="project-filters reveal">
+          <div class="project-filter-list" role="group" aria-label="Filter projects by category" aria-controls="project-grid">
+            <button class="project-filter is-active" type="button" data-project-filter="all" aria-pressed="true">All</button>
+            <button class="project-filter" type="button" data-project-filter="entertainment" aria-pressed="false">Entertainment</button>
+            <button class="project-filter" type="button" data-project-filter="digital-services" aria-pressed="false">Digital Services</button>
+            <button class="project-filter" type="button" data-project-filter="web-tools" aria-pressed="false">Web Tools</button>
+            <button class="project-filter" type="button" data-project-filter="games" aria-pressed="false">Games</button>
+            <button class="project-filter" type="button" data-project-filter="apps" aria-pressed="false">Apps</button>
+            <button class="project-filter" type="button" data-project-filter="live-tv" aria-pressed="false">Live TV</button>
+            <button class="project-filter" type="button" data-project-filter="favorites" aria-pressed="false">Favorites</button>
+          </div>
+          <p class="project-filter-status" role="status" aria-live="polite">Showing all 7 projects.</p>
+        </div>
+        <label class="project-search">
+          <span>Search projects</span>
+          <input type="search" class="project-search-input" aria-label="Search projects by name, category, or description" aria-controls="project-grid" placeholder="Try “movies” or “web tool”" autocomplete="off">
+        </label>
+        <div class="project-result-tools">
+          <span class="project-count" aria-live="polite">7 projects</span>
+          <label class="project-sort">
+            <span>Sort</span>
+            <select class="project-sort-select" aria-label="Sort projects">
+              <option value="featured">Featured</option>
+              <option value="name">Name A to Z</option>
+              <option value="category">Category</option>
+            </select>
+          </label>
+          <div class="project-tools-actions">
+            <button class="project-reset" type="button">Reset filters</button>
+            <button class="project-print" type="button">Print project list</button>
+          </div>
+        </div>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card reveal" data-project-category="entertainment">
+            <a class="project-visual" href="https://kurdmovies.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Kurd Movies project">
+              <img src="https://i.ibb.co/YT8tFzDd/IMG-3436.jpg" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Entertainment</p><h3>Kurd Movies</h3><p>A Kurdish cinema website for browsing films and series.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://kurdmovies.netlify.app/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-project-category="digital-services">
+            <a class="project-visual" href="https://payvenmn.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Payven MN project">
+              <img src="https://i.ibb.co/V0bH7gmG/IMG-3052.jpg" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Online Services</p><h3>Payven MN</h3><p>An online platform for digital services.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://payvenmn.netlify.app/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-project-category="web-tools">
+            <a class="project-visual" href="https://tiktokdl.page.gd/" target="_blank" rel="noopener noreferrer" aria-label="View TikTok DL project">
+              <img src="https://i.ibb.co/84XXkWLD/IMG-3175.png" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Web Tool</p><h3>TikTok DL</h3><p>A web tool for downloading TikTok videos.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://tiktokdl.page.gd/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-project-category="entertainment">
+            <a class="project-visual" href="https://shimovies.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View ShiMovies project">
+              <img src="https://i.ibb.co/vCQpvjjc/2-FC75-EE9-7-A46-4-D65-86-D8-58-F6-A245-BE1-E.png" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Entertainment</p><h3>ShiMovies</h3><p>A website for exploring international movies and series.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://shimovies.netlify.app/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-project-category="games">
+            <a class="project-visual" href="https://stick-hero-kurd.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="View Stick Hero Kurd project">
+              <img src="https://i.ibb.co/7mtdnbs/IMG-3176.jpg" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Web Game</p><h3>Stick Hero Kurd</h3><p>A web game localized for Kurdish users.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://stick-hero-kurd.vercel.app/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-project-category="apps">
+            <a class="project-visual" href="https://kurdroid.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Kurdroid project">
+              <img src="https://i.ibb.co/WWqJQP43/DB6-ECD0-C-4-E35-4-B1-E-9578-887-EDDE6-B2-FC.jpg" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Android Apps</p><h3>Kurdroid</h3><p>A hub for Kurdish Android applications.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://kurdroid.netlify.app/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-project-category="live-tv">
+            <a class="project-visual" href="https://kurddtv.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Kurd TV project">
+              <img src="https://i.ibb.co/Z6cNSMtG/IMG-1831.png" alt="" loading="lazy">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-copy"><p class="card-kicker">Live TV</p><h3>Kurd TV</h3><p>A live TV website featuring Kurdish channels.</p><ul class="project-tech-tags" aria-label="Verified project technologies" hidden></ul><a class="project-link" href="https://kurddtv.netlify.app/" target="_blank" rel="noopener noreferrer">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-empty-state" role="status" hidden>No projects match your search. Try another term or choose a different category.</p>
+      </section>
+
+      <section class="content-section section-shell faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Good to Know</p>
+          <h2 id="faq-title">A Few Helpful Answers.</h2>
+          <p class="section-intro">A little more context about the work, projects, and ways to connect.</p>
+        </div>
+        <div class="faq-list reveal">
+          <div class="faq-tools">
+            <label class="faq-search">
+              <span>Search answers</span>
+              <input class="faq-search-input" type="search" placeholder="Try “contact” or “availability”" aria-label="Search frequently asked questions" aria-controls="faq-items">
+            </label>
+            <button class="faq-expand-all" type="button" aria-pressed="false">Expand all</button>
+          </div>
+          <p class="faq-results" role="status" aria-live="polite">Showing all 8 answers.</p>
+          <div class="faq-items" id="faq-items">
+          <details class="faq-item">
+            <summary>What services are available?</summary>
+            <p>Website development and practical digital technology solutions are highlighted in the <a href="#services">services section</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I explore the projects?</summary>
+            <p>Yes. Filter or search the selected projects, then use a project link to visit its listed website.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is Shvan currently available for new work?</summary>
+            <p>Availability has not been confirmed. Send an inquiry through the contact form to ask about a specific project.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How can I get in touch?</summary>
+            <p>Use the contact form on this page to open WhatsApp with your message ready to send.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I change the look of the portfolio?</summary>
+            <p>Yes. Use Display Settings for text size, contrast, card style, spacing, and the Midnight or Aurora atmosphere. Theme and accent controls are also available.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Are project previews always live?</summary>
+            <p>Project detail panels show the available project image and verified link. Embedded previews may be blocked by the external website; use its direct project link if needed.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does the portfolio assistant use a live AI service?</summary>
+            <p>No. The assistant uses local, predefined responses based on the information shown on this portfolio.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Are my appearance settings saved?</summary>
+            <p>Appearance preferences may be saved in this browser. Optional local activity insights are separate, off by default, and never sent from this page.</p>
+          </details>
+          </div>
+          <p class="faq-empty" role="status" hidden>No answers match. Try another search term.</p>
+        </div>
+      </section>
+
+      <section class="content-section section-shell testimonial-section" id="testimonials" aria-labelledby="testimonials-title" hidden>
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Kind Words</p>
+          <h2 id="testimonials-title">Testimonials.</h2>
+        </div>
+        <div class="testimonial-list"></div>
+      </section>
+
+      <section class="content-section section-shell writing-section" id="writing" aria-labelledby="writing-title" hidden>
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Notes &amp; Ideas</p>
+          <h2 id="writing-title">Writing.</h2>
+        </div>
+        <div class="writing-list"></div>
+      </section>
+
+      <section class="content-section section-shell journey-section" id="journey" aria-labelledby="journey-title" hidden>
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Journey</p>
+          <h2 id="journey-title">A Creative Journey.</h2>
+        </div>
+        <ol class="journey-list"></ol>
+      </section>
+
+      <section class="content-section section-shell" id="tech-stack" aria-labelledby="tech-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Core Technologies</p>
+          <h2 id="tech-title">Tools Behind the Experience.</h2>
+          <p class="section-intro">This portfolio is built with lightweight web technologies and accessibility-minded practices. No proficiency ratings—just the tools and principles used in the experience.</p>
+        </div>
+        <ul class="tech-grid" aria-label="Technologies and practices used in this portfolio">
+          <li class="tech-card reveal"><span class="tech-mark" aria-hidden="true">&lt;/&gt;</span><span>HTML5</span></li>
+          <li class="tech-card reveal"><span class="tech-mark" aria-hidden="true">#</span><span>CSS3</span></li>
+          <li class="tech-card reveal"><span class="tech-mark" aria-hidden="true">JS</span><span>JavaScript</span></li>
+          <li class="tech-card reveal"><span class="tech-mark" aria-hidden="true">▣</span><span>Responsive Design</span></li>
+          <li class="tech-card reveal"><span class="tech-mark" aria-hidden="true">◎</span><span>Accessibility</span></li>
+        </ul>
+      </section>
+
+      <section class="content-section section-shell design-showcase-section" id="design-system" aria-labelledby="design-system-title" hidden>
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Design System</p>
+          <h2 id="design-system-title">The Details Behind the Design.</h2>
+          <p class="section-intro">Live samples from this portfolio’s design tokens and interface components.</p>
+        </div>
+        <div class="design-showcase-grid">
+          <article class="design-sample-card">
+            <h3>Brand colors</h3>
+            <div class="token-swatches">
+              <span><i data-token-color="--background"></i><code>Midnight</code></span>
+              <span><i data-token-color="--card"></i><code>Navy</code></span>
+              <span><i data-token-color="--accent"></i><code>Accent</code></span>
+              <span><i data-token-color="--accent-violet"></i><code>Violet</code></span>
+            </div>
+          </article>
+          <article class="design-sample-card">
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19h14M7 16l5-11 5 11m-8-4h6"/></svg>Type &amp; actions</h3>
+            <p class="design-type-sample">Thoughtfully made for the web.</p>
+            <div class="design-sample-actions">
+              <button class="button button-primary" type="button" data-design-theme>Switch theme</button>
+              <a class="button button-secondary" href="#contact">Contact</a>
+            </div>
+            <label class="design-form-sample">Form control<input type="text" value="A styled sample field" readonly></label>
+          </article>
+          <article class="design-sample-card design-token-surface">
+            <h3>Surface &amp; border</h3>
+            <p>A glass-inspired card using the current theme, border, and shadow tokens.</p>
+            <code data-token-value="--radius-card"></code>
+            <div class="design-theme-samples" aria-label="Dark and light theme examples">
+              <span class="theme-sample-dark">Dark surface</span><span class="theme-sample-light">Light surface</span>
+            </div>
+            <p class="motion-sample"><span class="motion-sample-dot" aria-hidden="true"></span>Subtle motion, reduced when requested</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section section-shell terminal-section" aria-labelledby="terminal-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Interactive Intro</p>
+          <h2 id="terminal-title">A Little About This Portfolio.</h2>
+          <p class="section-intro">Try a safe, predefined command to explore the page. This is a portfolio interaction—not a system terminal.</p>
+        </div>
+        <div class="terminal-window reveal">
+          <div class="terminal-topbar">
+            <span class="terminal-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="terminal-title">shvan-portfolio</span>
+            <span class="terminal-status"><span aria-hidden="true"></span>Ready</span>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-instructions" id="terminal-instructions">Choose a command or type one of: help, about, projects, contact, clear.</p>
+            <div class="terminal-output" role="log" aria-live="polite" aria-relevant="additions text">
+              <p class="terminal-line"><span class="terminal-prompt" aria-hidden="true">visitor@shvan:~$</span> <span>Welcome. Type <code>help</code> to see available commands.</span></p>
+            </div>
+            <form class="terminal-form" autocomplete="off">
+              <label class="visually-hidden" for="terminal-input">Enter a portfolio command</label>
+              <span class="terminal-prompt" aria-hidden="true">visitor@shvan:~$</span>
+              <input id="terminal-input" name="command" type="text" inputmode="text" spellcheck="false" aria-describedby="terminal-instructions" maxlength="32" placeholder="Type a command..." autocapitalize="off">
+              <button type="submit" class="terminal-submit" aria-label="Run command">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 14 0m-6-6 6 6-6 6"/></svg>
+              </button>
+            </form>
+            <div class="terminal-suggestions" aria-label="Suggested commands">
+              <button type="button" data-command="help">help</button>
+              <button type="button" data-command="about">about</button>
+              <button type="button" data-command="projects">projects</button>
+              <button type="button" data-command="contact">contact</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel reveal">
+          <div class="contact-orb" aria-hidden="true"></div>
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Let's Connect</p>
+            <h2 id="contact-title">Have an Idea? Let's Make It Real.</h2>
+            <p class="contact-description">Have a project in mind or want to connect? Let's explore what we can build together.</p>
+            <div class="contact-actions">
+              <a class="button button-secondary" href="https://iamshvan266.github.io/shvanjamal/" target="_blank" rel="noopener noreferrer">
+                <span>Visit My Website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" name="portfolio-contact">
+            <div class="contact-form-row">
+              <label for="contact-name">Your name</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+            </div>
+            <div class="contact-form-row">
+              <label for="contact-email">Email address</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+            </div>
+            <div class="contact-form-row">
+              <label for="contact-topic">What would you like to discuss?</label>
+              <select id="contact-topic" name="topic" required>
+                <option value="" selected disabled>Select a topic</option>
+                <option value="Website development">Website development</option>
+                <option value="Digital solutions">Digital solutions</option>
+                <option value="Existing project question">Question about an existing project</option>
+                <option value="General inquiry">General inquiry</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="contact-form-row">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="4" maxlength="1000" required></textarea>
+              <span class="contact-message-count" aria-live="polite">0 / 1000</span>
+            </div>
+            <div class="contact-form-actions">
+              <button class="button button-primary contact-submit" type="submit">Send Message <span aria-hidden="true">↗</span></button>
+              <button class="contact-copy-message" type="button" disabled>Copy message</button>
+              <button class="contact-draft-save" type="button" disabled>Save draft on this device</button>
+              <button class="contact-draft-restore" type="button" hidden>Restore saved draft</button>
+              <button class="contact-draft-delete" type="button" hidden>Delete saved draft</button>
+              <button class="contact-reset" type="reset">Clear form</button>
+            </div>
+            <p class="contact-draft-privacy">Drafts are saved only when you choose to save them and remain in this browser. Do not save sensitive information.</p>
+            <p class="contact-form-note" role="status" aria-live="polite">Submitting opens WhatsApp with your message ready to send. You can review it before sending.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <section class="site-audio section-shell" aria-label="Favorite song">
+      <div class="site-audio-copy">
+        <p class="eyebrow">Now Playing</p>
+        <h2>Amara</h2>
+      </div>
+      <audio controls autoplay preload="metadata" aria-label="Play Kawa - Amara">
+        <source src="./assets/kawa-amara.mp3" type="audio/mpeg">
+        Your browser does not support audio playback.
+      </audio>
+    </section>
+
+    <footer class="site-footer section-shell">
+      <a class="footer-brand" href="#top">Shvan Jamal<span aria-hidden="true">.</span></a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#faq">FAQ</a>
+        <a href="#testimonials" data-optional-target="testimonials" hidden>Testimonials</a>
+        <a href="#writing" data-optional-target="writing" hidden>Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-tools">
+        <button class="open-command-center" type="button" aria-keyshortcuts="Alt+Shift+C">Command Center</button>
+        <button class="open-share" type="button">Share Portfolio</button>
+        <button class="open-accessibility" type="button">Display Settings</button>
+        <button class="reading-mode-toggle" type="button" aria-pressed="false">Reading Mode</button>
+        <button class="open-session-insights" type="button">Local Activity</button>
+        <button class="open-shortcuts" type="button" aria-keyshortcuts="?">Keyboard Shortcuts</button>
+        <button class="creator-mode-toggle" type="button" aria-pressed="false" aria-keyshortcuts="Alt+Shift+D">Creator Mode</button>
+      </div>
+      <p><span>© <span id="current-year"></span> Shvan Jamal</span><span class="footer-message">Designed with Intention. Built for the Web.</span></p>
+      <a class="back-to-top" href="#top"><span>Back to Top</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 14 5-5 5 5"/></svg></a>
+    </footer>
+    <dialog class="shortcuts-dialog" aria-labelledby="shortcuts-title">
+      <div class="utility-dialog-panel shortcuts-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Keyboard First</p><h2 id="shortcuts-title">Keyboard Shortcuts</h2></div>
+          <button class="shortcuts-close" type="button" aria-label="Close keyboard shortcuts">×</button>
+        </div>
+        <dl class="shortcut-list">
+          <div><dt>Open quick search</dt><dd><kbd>Ctrl</kbd> + <kbd>K</kbd> <span>or</span> <kbd>⌘</kbd> + <kbd>K</kbd></dd></div>
+          <div><dt>Open Command Center</dt><dd><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd></dd></div>
+          <div><dt>Toggle Creator Mode</dt><dd><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd></dd></div>
+          <div><dt>Show this help</dt><dd><kbd>?</kbd></dd></div>
+          <div><dt>Close a panel</dt><dd><kbd>Esc</kbd></dd></div>
+          <div><dt>Move through search results</dt><dd><kbd>↑</kbd> / <kbd>↓</kbd>, then <kbd>Enter</kbd></dd></div>
+        </dl>
+        <p class="shortcut-note">Shortcuts are ignored while typing in text fields. Use your browser’s standard shortcuts as usual.</p>
+      </div>
+    </dialog>
+    <dialog class="quick-search-dialog" aria-labelledby="quick-search-title">
+      <div class="quick-search-panel">
+        <div class="quick-search-heading">
+          <div><p class="eyebrow">Quick Navigation</p><h2 id="quick-search-title">Where would you like to go?</h2></div>
+          <button class="quick-search-close" type="button" aria-label="Close quick navigation search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+          </button>
+        </div>
+        <label class="quick-search-input-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.5 4.5"/></svg>
+          <input class="quick-search-input" type="search" role="combobox" aria-autocomplete="list" aria-expanded="true" placeholder="Search sections..." autocomplete="off" aria-label="Search portfolio sections" aria-controls="quick-search-results">
+          <kbd>ESC</kbd>
+        </label>
+        <ul class="quick-search-results" id="quick-search-results" role="listbox" aria-label="Navigation results"></ul>
+        <p class="quick-search-empty" hidden>No matching sections. Try another search.</p>
+        <div class="quick-search-hints"><span><kbd>↑</kbd><kbd>↓</kbd> to navigate</span><span><kbd>ENTER</kbd> to select</span><span><kbd>ESC</kbd> to close</span></div>
+      </div>
+    </dialog>
+    <dialog class="project-preview-dialog" aria-labelledby="project-preview-title">
+      <article class="project-preview-panel">
+        <button class="project-preview-close" type="button" aria-label="Close project preview">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+        <div class="project-preview-studio">
+          <div class="project-preview-toolbar">
+            <div class="preview-source-switch" role="group" aria-label="Preview content">
+              <button type="button" class="preview-source-button is-selected" data-preview-source="image" aria-pressed="true">Screenshot</button>
+              <button type="button" class="preview-source-button" data-preview-source="live" aria-pressed="false">Live preview</button>
+            </div>
+            <div class="device-switch" role="group" aria-label="Preview device size">
+              <button type="button" data-device="desktop" aria-pressed="true">Desktop</button>
+              <button type="button" data-device="tablet" aria-pressed="false">Tablet</button>
+              <button type="button" data-device="mobile" aria-pressed="false">Mobile</button>
+            </div>
+          </div>
+          <div class="device-stage" data-device="desktop">
+            <div class="device-frame">
+              <div class="device-screen">
+                <div class="project-preview-image-wrap"><img class="project-preview-image" alt=""></div>
+                <iframe class="project-live-frame" title="" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" hidden></iframe>
+                <div class="preview-loading" role="status" hidden><span aria-hidden="true"></span><span class="preview-loading-label">Loading preview…</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-gallery-controls" role="group" aria-label="Project screenshot gallery">
+            <button class="project-gallery-previous" type="button" aria-label="Previous project screenshot">← Previous</button>
+            <span class="project-gallery-position" aria-live="polite">Project 1 of 7</span>
+            <button class="project-gallery-next" type="button" aria-label="Next project screenshot">Next →</button>
+            <button class="project-image-fullscreen" type="button" aria-pressed="false">View image fullscreen</button>
+          </div>
+          <p class="preview-disclaimer">Live previews may be blocked by the project website. You can always open it directly.</p>
+          <p class="project-gallery-status" role="status" aria-live="polite"></p>
+        </div>
+        <div class="project-preview-copy">
+          <p class="card-kicker project-preview-category"></p>
+          <h2 id="project-preview-title"></h2>
+          <p class="project-preview-description"></p>
+          <p class="project-tech-note">Project-specific technology details have not been confirmed.</p>
+          <ul class="project-preview-tech-tags" aria-label="Verified project technologies" hidden></ul>
+          <div class="project-preview-actions">
+            <a class="button button-primary project-preview-link" href="" target="_blank" rel="noopener noreferrer"><span>Visit Live Project</span><span aria-hidden="true">↗</span></a>
+            <button class="button button-secondary copy-project-link" type="button">Copy Project Link</button>
+            <button class="button button-secondary share-project-link" type="button">Share Project</button>
+            <button class="button button-secondary project-compare-toggle" type="button" aria-expanded="false" aria-controls="project-side-compare">Compare another project</button>
+          </div>
+          <section class="project-side-compare" id="project-side-compare" aria-label="Compare portfolio project screenshots" hidden>
+            <div class="project-side-compare-heading">
+              <div><p class="eyebrow">Screenshot Comparison</p><h3>Explore Two Projects</h3></div>
+              <button class="project-compare-close" type="button" aria-label="Close project comparison">×</button>
+            </div>
+            <p class="project-compare-caveat">These are separate portfolio screenshots for visual browsing, not a before-and-after claim.</p>
+            <div class="project-compare-grid">
+              <figure><img class="project-compare-image-primary" alt=""><figcaption class="project-compare-title-primary"></figcaption></figure>
+              <figure><img class="project-compare-image-secondary" alt=""><figcaption class="project-compare-title-secondary"></figcaption></figure>
+            </div>
+            <p class="project-compare-status" role="status" aria-live="polite"></p>
+          </section>
+        </div>
+      </article>
+    </dialog>
+    <dialog class="insights-dialog" aria-labelledby="insights-title" aria-describedby="insights-description">
+      <div class="utility-dialog-panel insights-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Private · This Browser Session</p><h2 id="insights-title">Local Activity</h2></div>
+          <button class="insights-close" type="button" aria-label="Close local activity panel">×</button>
+        </div>
+        <p class="insights-description" id="insights-description">Optional counters stay in memory for this tab only. Nothing is stored or sent. Tracking is off until you start it.</p>
+        <div class="insights-metrics" aria-live="polite">
+          <div><span>Project previews</span><strong data-insight-count="projects">0</strong></div>
+          <div><span>Project link clicks</span><strong data-insight-count="links">0</strong></div>
+          <div><span>Contact form starts</span><strong data-insight-count="contact">0</strong></div>
+          <div><span>Contact submit attempts</span><strong data-insight-count="submissions">0</strong></div>
+        </div>
+        <p class="insights-state" role="status" aria-live="polite">Local activity tracking is off.</p>
+        <div class="insights-actions">
+          <button class="button button-primary insights-toggle" type="button" aria-pressed="false">Start local tracking</button>
+          <button class="button button-secondary insights-reset" type="button">Reset counters</button>
+        </div>
+        <p class="insights-privacy-note">Counts reset when the page is reloaded or when you reset them. This is not site-wide analytics.</p>
+      </div>
+    </dialog>
+    <dialog class="settings-dialog" aria-labelledby="settings-title">
+      <div class="utility-dialog-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Personalization</p><h2 id="settings-title">Display Settings</h2></div>
+          <button class="settings-close" type="button" aria-label="Close display settings">×</button>
+        </div>
+        <fieldset class="setting-group">
+          <legend>Text size</legend>
+          <div class="setting-button-row">
+            <button type="button" data-text-size="smaller">Decrease</button>
+            <button type="button" data-text-size="reset">Reset</button>
+            <button type="button" data-text-size="larger">Increase</button>
+          </div>
+        </fieldset>
+        <fieldset class="setting-group">
+          <legend>Theme &amp; accent</legend>
+          <div class="setting-button-row" role="group" aria-label="Choose color theme">
+            <button type="button" data-theme-choice="dark" aria-pressed="false">Dark</button>
+            <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+          </div>
+          <div class="setting-button-row" role="group" aria-label="Choose accent color">
+            <button type="button" data-quick-accent="blue" aria-pressed="true">Electric blue</button>
+            <button type="button" data-quick-accent="violet" aria-pressed="false">Violet</button>
+            <button type="button" data-quick-accent="cyan" aria-pressed="false">Cyan</button>
+          </div>
+        </fieldset>
+        <fieldset class="setting-group">
+          <legend>Presentation</legend>
+          <div class="setting-button-row" role="group" aria-label="Visual atmosphere">
+            <button type="button" data-atmosphere="midnight" aria-pressed="true">Midnight</button>
+            <button type="button" data-atmosphere="aurora" aria-pressed="false">Aurora</button>
+          </div>
+          <div class="setting-button-row">
+            <button type="button" data-spacing="comfortable" aria-pressed="true">Comfortable spacing</button>
+            <button type="button" data-spacing="compact" aria-pressed="false">Compact spacing</button>
+          </div>
+          <div class="setting-button-row">
+            <button type="button" data-card-style="glass" aria-pressed="true">Glass cards</button>
+            <button type="button" data-card-style="flat" aria-pressed="false">Flat cards</button>
+          </div>
+        </fieldset>
+        <fieldset class="setting-group">
+          <legend>Accessibility</legend>
+          <div class="setting-button-row">
+            <button type="button" data-appearance-toggle="contrast" aria-pressed="false">Increase contrast</button>
+            <button type="button" data-appearance-toggle="effects" aria-pressed="false">Reduce visual effects</button>
+          </div>
+          <p class="setting-note">Your operating system’s reduced-motion preference is respected automatically.</p>
+        </fieldset>
+        <button class="button button-secondary reset-appearance" type="button">Reset Appearance</button>
+      </div>
+    </dialog>
+    <dialog class="share-dialog" aria-labelledby="share-title">
+      <div class="utility-dialog-panel share-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Pass it Along</p><h2 id="share-title">Share Portfolio</h2></div>
+          <button class="share-close" type="button" aria-label="Close share dialog">×</button>
+        </div>
+        <div class="share-card">
+          <span class="share-mark" aria-hidden="true">SJ.</span>
+          <div><strong>Shvan Jamal</strong><span>Web Developer &amp; Digital Creator</span></div>
+          <span class="share-card-glow" aria-hidden="true"></span>
+        </div>
+        <p class="share-url">https://iamshvan266.github.io/shvanjamal/</p>
+        <div class="share-qr">
+          <button class="share-qr-toggle" type="button" aria-expanded="false" aria-controls="share-qr-content">Show portfolio QR code</button>
+          <div class="share-qr-content" id="share-qr-content" hidden>
+            <img class="share-qr-image" alt="QR code linking to Shvan Jamal's portfolio" width="180" height="180" loading="lazy" referrerpolicy="no-referrer">
+            <p class="share-qr-note">The QR image is generated on request by an external QR service using the public portfolio URL.</p>
+            <p class="share-qr-status" role="status" aria-live="polite"></p>
+            <button class="share-qr-retry" type="button" hidden>Retry QR code</button>
+          </div>
+        </div>
+        <div class="share-actions">
+          <button class="button button-primary copy-portfolio" type="button">Copy Portfolio Link</button>
+          <button class="button button-secondary native-share" type="button">Share…</button>
+        </div>
+        <p class="share-note">Share the public portfolio link. The QR service is contacted only if you request the QR code.</p>
+      </div>
+    </dialog>
+    <dialog class="command-center-dialog" aria-labelledby="command-center-title">
+      <div class="utility-dialog-panel command-center-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Portfolio Controls</p><h2 id="command-center-title">Command Center</h2></div>
+          <button class="command-center-close" type="button" aria-label="Close command center">×</button>
+        </div>
+        <p class="command-center-intro">Navigate the portfolio or open an optional experience. Search: Ctrl/Cmd + K · Command Center: Alt + Shift + C.</p>
+        <nav class="command-destinations" aria-label="Portfolio sections">
+          <a href="#home"><span aria-hidden="true">⌂</span>Home</a>
+          <a href="#about"><span aria-hidden="true">◎</span>About</a>
+          <a href="#services"><span aria-hidden="true">✳</span>Services</a>
+          <a href="#tech-stack"><span aria-hidden="true">&lt;/&gt;</span>Tech Stack</a>
+          <a href="#projects"><span aria-hidden="true">▤</span>Projects</a>
+          <a href="#faq"><span aria-hidden="true">?</span>FAQ</a>
+          <a href="#contact"><span aria-hidden="true">↗</span>Contact</a>
+        </nav>
+        <div class="command-actions" aria-label="Portfolio actions">
+          <button type="button" data-command-action="theme">Switch theme</button>
+          <button type="button" data-command-action="appearance">Display settings</button>
+          <button type="button" data-command-action="reading">Toggle reading mode</button>
+          <button type="button" data-command-action="cosmic">Cosmic navigation</button>
+          <button type="button" data-command-action="playground">Code playground</button>
+          <button type="button" data-command-action="design">Toggle design system</button>
+          <button type="button" data-command-action="resume">Resume &amp; print</button>
+          <button type="button" data-command-action="creator">Toggle creator mode</button>
+          <button type="button" data-command-action="compare" disabled>Before / after unavailable</button>
+        </div>
+        <p class="command-center-note">Before-and-after comparisons will appear when verified image pairs are added.</p>
+      </div>
+    </dialog>
+    <dialog class="cosmic-dialog" aria-labelledby="cosmic-title">
+      <div class="utility-dialog-panel cosmic-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Optional Navigation</p><h2 id="cosmic-title">Constellation Map</h2></div>
+          <button class="cosmic-close" type="button" aria-label="Close constellation map">×</button>
+        </div>
+        <div class="constellation-map">
+          <svg viewBox="0 0 600 340" aria-hidden="true" focusable="false">
+            <path d="M300 170 98 73M300 170 200 44M300 170 400 44M300 170 502 73M300 170 480 270M300 170 120 270"/>
+            <circle cx="300" cy="170" r="4"/><circle cx="98" cy="73" r="3"/><circle cx="200" cy="44" r="3"/><circle cx="400" cy="44" r="3"/><circle cx="502" cy="73" r="3"/><circle cx="480" cy="270" r="3"/><circle cx="120" cy="270" r="3"/>
+          </svg>
+          <span class="constellation-core" aria-hidden="true">SJ.</span>
+          <nav class="constellation-links" aria-label="Constellation destinations">
+            <a class="constellation-node node-home" href="#home">Home</a>
+            <a class="constellation-node node-about" href="#about">About</a>
+            <a class="constellation-node node-services" href="#services">Services</a>
+            <a class="constellation-node node-tech" href="#tech-stack">Tech Stack</a>
+            <a class="constellation-node node-projects" href="#projects">Projects</a>
+            <a class="constellation-node node-contact" href="#contact">Contact</a>
+          </nav>
+        </div>
+        <p class="cosmic-hint">Choose a destination. This map supplements the main navigation.</p>
+      </div>
+    </dialog>
+    <dialog class="playground-dialog" aria-labelledby="playground-title">
+      <div class="utility-dialog-panel playground-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Safe HTML + CSS Demo</p><h2 id="playground-title">Code Playground</h2></div>
+          <button class="playground-close" type="button" aria-label="Close code playground">×</button>
+        </div>
+        <p class="playground-instructions" id="playground-instructions">Edit the HTML and CSS samples to experiment. The isolated preview blocks scripts and external resources; it is a small demonstration, not a full IDE.</p>
+        <div class="playground-editors">
+          <label>HTML example<textarea class="playground-html" spellcheck="false" maxlength="4000" aria-label="Editable HTML example" aria-describedby="playground-instructions"></textarea></label>
+          <label>CSS example<textarea class="playground-css" spellcheck="false" maxlength="4000" aria-label="Editable CSS example" aria-describedby="playground-instructions"></textarea></label>
+        </div>
+        <div class="playground-preview-heading"><h3>Live preview</h3><span>Sandboxed · no JavaScript</span></div>
+        <iframe class="playground-frame" title="Sandboxed HTML and CSS playground preview" sandbox=""></iframe>
+        <div class="playground-actions">
+          <button class="button button-secondary playground-reset" type="button">Reset example</button>
+          <p class="playground-status" role="status" aria-live="polite">Preview ready.</p>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="resume-dialog" aria-labelledby="resume-title">
+      <article class="resume-panel">
+        <div class="utility-dialog-heading resume-toolbar">
+          <div><p class="eyebrow">Verified Portfolio Summary</p><h2 id="resume-title">Shvan Jamal</h2></div>
+          <div class="resume-actions">
+            <button class="button button-primary print-resume" type="button">Print / Save as PDF</button>
+            <button class="resume-close" type="button" aria-label="Close resume">×</button>
+          </div>
+        </div>
+        <p class="resume-role">Web Developer &amp; Digital Creator</p>
+        <p class="resume-intro">I'm Shvan Jamal, a web developer passionate about building modern websites and creating useful digital experiences with clean design and thoughtful technology.</p>
+        <p class="resume-incomplete-note">Only details confirmed on this portfolio or entered above are included. No other work history, education, or qualifications are claimed.</p>
+        <details class="resume-editor">
+          <summary>Add verified experience or education</summary>
+          <p>Optional, session-only fields. Add only details you have verified; entered text is not saved.</p>
+          <label>Experience and dates<textarea data-resume-input="experience" maxlength="2000" placeholder="Enter verified roles and dates, if applicable."></textarea></label>
+          <label>Education and dates<textarea data-resume-input="education" maxlength="2000" placeholder="Enter verified education and dates, if applicable."></textarea></label>
+        </details>
+        <section aria-labelledby="resume-skills-title"><h3 id="resume-skills-title">Tools and practices represented here</h3><p>HTML5 · CSS3 · JavaScript · Responsive Design · Accessibility</p></section>
+        <section aria-labelledby="resume-projects-title"><h3 id="resume-projects-title">Selected projects</h3><ul class="resume-project-list"></ul></section>
+        <section class="resume-added-section" data-resume-section="experience" aria-labelledby="resume-experience-title" hidden><h3 id="resume-experience-title">Experience</h3><p data-resume-value="experience"></p></section>
+        <section class="resume-added-section" data-resume-section="education" aria-labelledby="resume-education-title" hidden><h3 id="resume-education-title">Education</h3><p data-resume-value="education"></p></section>
+        <p class="resume-website">Portfolio: <a href="https://iamshvan266.github.io/shvanjamal/" target="_blank" rel="noopener noreferrer">iamshvan266.github.io/shvanjamal</a></p>
+      </article>
+    </dialog>
+    <dialog class="comparison-dialog" aria-labelledby="comparison-title">
+      <div class="utility-dialog-panel comparison-panel">
+        <div class="utility-dialog-heading">
+          <div><p class="eyebrow">Verified Project Images</p><h2 id="comparison-title">Before &amp; After</h2></div>
+          <button class="comparison-close" type="button" aria-label="Close comparison">×</button>
+        </div>
+        <p class="comparison-project-title"></p>
+        <div class="comparison-stage">
+          <img class="comparison-before" alt="Before redesign">
+          <div class="comparison-after-wrap"><img class="comparison-after" alt="After redesign"></div>
+          <span class="comparison-label comparison-label-before">Before</span>
+          <span class="comparison-label comparison-label-after">After</span>
+        </div>
+        <label class="visually-hidden" for="comparison-range">Adjust before and after comparison</label>
+        <input class="comparison-range" id="comparison-range" type="range" min="0" max="100" value="50">
+          <p class="comparison-status" role="status" aria-live="polite">Use the slider to compare the verified images.</p>
+      </div>
+    </dialog>
+    <aside class="creator-panel" hidden aria-label="Creator mode details">
+      <div><strong>Creator Mode</strong><button class="creator-close" type="button" aria-label="Exit creator mode">×</button></div>
+      <p>Layout boundaries and the background grid are highlighted.</p>
+      <dl><dt>Accent</dt><dd data-creator-accent></dd><dt>Card radius</dt><dd data-creator-radius></dd><dt>Motion</dt><dd data-creator-motion></dd></dl>
+    </aside>
+    <section class="assistant-widget" aria-label="Portfolio assistant">
+      <div class="assistant-panel" id="assistant-panel" hidden>
+        <div class="assistant-header">
+          <span class="assistant-avatar" aria-hidden="true">SJ.</span>
+          <div><strong>Portfolio Guide</strong><span>Local assistant · scripted replies</span></div>
+          <button class="assistant-close" type="button" aria-label="Close portfolio assistant">×</button>
+        </div>
+        <div class="assistant-messages" role="log" aria-live="polite" aria-relevant="additions">
+          <p class="assistant-message assistant-reply">Hi! I can help you explore Shvan’s portfolio. I use preset answers from this page, not a live AI service.</p>
+        </div>
+        <div class="assistant-suggestions" aria-label="Suggested questions">
+          <button type="button" data-assistant-question="Who is Shvan Jamal?">Who is Shvan Jamal?</button>
+          <button type="button" data-assistant-question="What services are available?">What services are available?</button>
+          <button type="button" data-assistant-question="Show me the projects.">Show me the projects.</button>
+          <button type="button" data-assistant-question="How can I get in touch?">How can I get in touch?</button>
+        </div>
+        <form class="assistant-form">
+          <label class="visually-hidden" for="assistant-input">Ask a question about this portfolio</label>
+          <input id="assistant-input" type="text" maxlength="160" autocomplete="off" placeholder="Ask about the portfolio…">
+          <button type="submit" aria-label="Send question">Send</button>
+        </form>
+      </div>
+      <button class="assistant-toggle" type="button" aria-expanded="false" aria-controls="assistant-panel" aria-label="Open portfolio assistant">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H8l-4 2v-5.2A7.5 7.5 0 1 1 20 11.5Z"/><path d="M8 11h8m-8 3h5"/></svg>
+        <span>Ask about this portfolio</span>
+      </button>
+    </section>
+    <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <span class="cursor-glow" aria-hidden="true"></span>
+  </body>
+</html>
